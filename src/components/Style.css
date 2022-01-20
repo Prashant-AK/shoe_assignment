@@ -1,0 +1,141 @@
+.box_container {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 2px 3px rgb(182, 182, 182);
+  /* border: 2px solid blue; */
+}
+
+.mainbox {
+  /* border: 2px solid rgb(101, 133, 37); */
+  display: flex;
+  flex: 80;
+  flex-direction: row;
+}
+.header_container {
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 2px solid whitesmoke;
+}
+.header_left {
+  display: flex;
+  flex: 20;
+  /* justify-content: center; */
+}
+.header_left > h3 {
+  margin-left: 30px;
+}
+.header_right {
+  display: flex;
+  flex: 80;
+  align-items: center;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+  width: 60%;
+  height: 30px;
+  padding-left: 40px;
+}
+
+.sidebar {
+  border: 2px solid red;
+  display: flex;
+  flex: 20;
+  flex-direction: column;
+  /* height: 100%; */
+  padding: 10px;
+  justify-content: start;
+  gap: 0;
+}
+.sidebar_row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.sidebar_row2 {
+  border: 2px solid tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* align-items: center; */
+}
+
+.sidebar_row3 {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar_row3 > section {
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+.sidebar_row3 button {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 2px rgba(173, 173, 173, 0.884);
+  border-radius: 10px;
+}
+.content {
+  border: 2px solid aqua;
+  display: flex;
+  flex: 80;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+}
+
+.content_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  flex: 0.1;
+  border-bottom: 2px solid rgb(163, 160, 160);
+}
+.custom-select {
+  width: 200px;
+}
+.custom-select > select {
+}
+.content_display {
+  display: flex;
+  flex-direction: row;
+  flex: 0.9;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0px 10px 0px;
+  overflow-y: scroll;
+  height: 100%;
+}
+/* .content_display::-webkit-scrollbar {
+  width: 5px;
+} */
